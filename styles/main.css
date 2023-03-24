@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffc8;
+    background-color: #858861;
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
@@ -42,7 +42,7 @@ h1#logo {
 
 h1#logo:hover {
     color: #000000;
-    text-shadow: 2px 2px #00FF00;
+    text-shadow: 2px 2px #FFFF00;
 }
 
 
@@ -50,13 +50,14 @@ h1#logo:hover {
     margin-top: 100px;
     position: relative;
     width: 90%;
-    height:600px;
-    object-fit:fill;
+    height:750px;
+    object-fit:cover;
+    object-position:bottom;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-image: url('../img/slider/image1.png');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .arrow {
